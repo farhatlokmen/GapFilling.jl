@@ -1,0 +1,13 @@
+name = "GapFilling"
+uuid = "7f0a4ef1-8b64-4df0-96d9-31c78492cd95"
+authors = ["Lokmen-Farhat"]
+version = "0.0.1"
+
+[compat]
+julia = "1.6.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
