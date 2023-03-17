@@ -16,6 +16,12 @@ using StatsBase
 using Metrics
 using ProgressMeter 
 
+using Distributed
+using ParallelDataTransfer
+#using GeoArrays
+#using Random
+using Statistics
+
 # Post-processing
 #using GeoArrays
 #using DataFrames
