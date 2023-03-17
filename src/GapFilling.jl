@@ -33,12 +33,12 @@ using ArchGDAL
 using XLSX
 
 
-export set_boundary, rename_resize_image, get_cloudP, get_path, plotHistogram, select_Img, getInfo, preprocess,
-generate_List, convert_to_offsets, selectUP_minNx, getZx, getZy, find_subset1, find_best_replicate, analyze,
-differenceP, postprocess
+export set_boundary, rename_resize_image, get_cloudP, get_path, plotHistogram, select_Img, getInfo, preprocess
+#generate_List, convert_to_offsets, selectUP_minNx, getZx, getZy, find_subset1, find_best_replicate, analyze,
+#differenceP, postprocess
 
 include("preprocessing.jl")
-include("modifiedDS.jl")
-include("postprocessing.jl")
+#include("modifiedDS.jl")
+#include("postprocessing.jl")
 
 end
