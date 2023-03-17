@@ -16,6 +16,15 @@ StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
 
 [compat]
+ArchGDAL = "0.9.3"
+CSV = "0.10.8"
+DataFrames = "1.4.3"
+GeoArrays = "0.7.9"
+Metrics = "0.1.2"
+Plots = "1.38.5"
+ProgressMeter = "1.7.2"
+StatsBase = "0.33.21"
+XLSX = "0.8.2"
 julia = "1.6"
 
 [extras]
